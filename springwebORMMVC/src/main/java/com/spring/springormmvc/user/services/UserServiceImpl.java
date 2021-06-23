@@ -11,6 +11,7 @@ import com.spring.springormmvc.user.entity.User;
 
 @Service
 public class UserServiceImpl implements UserService {
+	@Autowired
 	UserDao dao;
 
 	public UserDao getDao() {
